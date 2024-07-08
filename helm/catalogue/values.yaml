@@ -1,0 +1,5 @@
+deployment:
+  version: v1
+  replicas: 3
+hpa:
+  averageUtilization: 75
