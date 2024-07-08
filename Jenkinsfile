@@ -25,7 +25,7 @@ pipeline {
             steps {
                 script{
                     sh """
-                        cd helm
+                        cd helm/catalogue
                         helm upgrade --install catalogue -n roboshop .
                     """
                 }
