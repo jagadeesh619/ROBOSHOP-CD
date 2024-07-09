@@ -32,6 +32,3 @@ spec:
           limits:
             cpu: "100m"
             memory: "256Mi"
-        envFrom:
-        - configMapRef:
-            name: "web"
